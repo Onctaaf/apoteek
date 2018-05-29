@@ -1,0 +1,9 @@
+html{
+  height: 100vh;
+}
+
+.scrollclass{
+  width: 100vh;
+  height: 100vh;
+  display: block;
+}
