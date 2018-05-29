@@ -4,14 +4,17 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
 
-                <div class="card-body">
-                    kaaaas
+                  <section class="scrollclass">
+                    kaas
+                  </section>
+                  <section class="scrollclass">
+                    worst
+                  </section>
+                  <section class="scrollclass">
+                    brood
+                  </section>
                 </div>
-            </div>
-        </div>
     </div>
 </div>
 @endsection
