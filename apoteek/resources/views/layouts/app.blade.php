@@ -21,6 +21,12 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/kaas.css') }}" rel="stylesheet">
+
+    <script src="http://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
+    <script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.6.min.js"></script>
+
+
 </head>
 <body>
     <div id="app">
