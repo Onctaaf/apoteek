@@ -31,6 +31,7 @@
 </head>
 <body>
     <div id="app" >
+      <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky">
             <div class="container">
                 <a class="navbarLink" href="https://www.pornhub.com">
@@ -74,9 +75,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="underline">
-            </div>
+
         </nav>
+                            <div class="underline">
+                            </div>
+</div>
 
         <main class="py-4">
             @yield('content')

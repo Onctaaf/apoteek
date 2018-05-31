@@ -42,6 +42,10 @@ body{
   width: 100%;
   z-index: 100;
 }
-.kaasjes{
-
+.underline{
+  width: 100vh;
+  height: 2px;
+  background-color: green;
+  z-index: 101;
+margin-top: 100px;
 }
