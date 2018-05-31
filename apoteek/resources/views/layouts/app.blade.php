@@ -31,7 +31,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky">
             <div class="container">
                 <a class="navbarLink" href="https://www.pornhub.com">
                     Apoteek
