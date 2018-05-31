@@ -74,6 +74,8 @@
                     </ul>
                 </div>
             </div>
+            <div class="underline">
+            </div>
         </nav>
 
         <main class="py-4">
