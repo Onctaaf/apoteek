@@ -1,5 +1,6 @@
 .inMiddenVraag{
   text-align: center;
+  position: relative;
 }
 .fullSizeVraag{
   background-color: #303030 !important;
@@ -9,4 +10,14 @@
 
 *{
   font-family: Roboto;
+}
+.arrowDown{
+  font-size: 200%;
+  transform: rotate(90deg);
+  margin-top: 10vh;
+}
+.arrowUp{
+  font-size: 200%;
+  transform: rotate(90deg);
+  margin-bottom: 10vh;
 }

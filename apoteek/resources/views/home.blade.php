@@ -9,8 +9,10 @@
                     <form action="/action_page.php" method="get">
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
+                          <p class="arrowUp"><</p>
                            Voornaam: <input type="text" name="fname"><br>
                            Achternaam: <input type="text" name="lname"><br>
+                           <p class="arrowDown">></p>
                          </div>
                        </div>
 
@@ -20,6 +22,7 @@
                          <input type="radio" name="hoofdpijn" value="Ja">Ja<br>
                          <input type="radio" name="hoofdpijn" value="Nee">Nee<br>
                          <input type="radio" name="hoofdpijn" value="Beetje">Beetje<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -29,6 +32,7 @@
                          <input type="radio" name="wathoofdpijn" value="Kloppend">Kloppend<br>
                          <input type="radio" name="wathoofdpijn" value="Bonkend">Bonkend<br>
                          <input type="radio" name="wathoofdpijn" value="Stekend">Stekend<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -38,6 +42,7 @@
                          <input type="radio" name="moe" value="Ja">Ja<br>
                          <input type="radio" name="moe" value="Nee">Nee<br>
                          <input type="radio" name="moe" value="Beetje">Beetje<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -47,6 +52,7 @@
                          <input type="radio" name="opgemerkt" value="Ja">Ja<br>
                          <input type="radio" name="opgemerkt" value="Nee">Nee<br>
                          <input type="radio" name="opgemerkt" value="Twijfel">Twijfel<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -57,6 +63,7 @@
 
                         <input type="radio" name="wanopgemerkt" value="Na24">Na 24 na de beet<br>
                          <input type="radio" name="wanopgemerkt" value="Twijfel">Ik weet het niet<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -66,6 +73,7 @@
                          <input type="radio" name="verweiderd" value="Ja">Ja<br>
                          <input type="radio" name="verweiderd" value="Nee">Nee<br>
                          <input type="radio" name="verweiderd" value="Beetje">I tried<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -75,6 +83,7 @@
                          <input type="radio" name="filmpje" value="Ja">Ja<br>
                          <input type="radio" name="filmpje" value="Nee">Nee<br>
                          <input type="radio" name="filmpje" value="Later">Ja, na deze vragenlijst<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -84,6 +93,7 @@
                          <input type="radio" name="kring" value="Ja">Ja<br>
                          <input type="radio" name="kring" value="Nee">Nee<br>
                          <input type="radio" name="kring" value="Beetje">Misschien<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -93,6 +103,7 @@
                          <input type="radio" name="uLyme" value="Ja">Ja<br>
                          <input type="radio" name="uLyme" value="Nee">Nee<br>
                          <input type="radio" name="uLyme" value="Beetje">Misschien<br>
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -100,6 +111,7 @@
                        <div class="inMiddenVraag">
                          <p>Hoe oud bent u?</p>
                          <input type="number" name="age" value="">
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -110,6 +122,7 @@
                          <input type="radio" name="fotoLoad" value="Nee">Nee<br>
                          <br>
                          <input type="file" name="fileToUpload" id="fileToUpload">
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
@@ -118,6 +131,7 @@
                          E-mail van huisarts: <input type="text" name="fname"><br>
                          Uw E-mail: <input type="text" name="lname"><br>
                          <input type="submit" value="Submit">
+                         <p class="arrowDown">></p>
                        </div>
                      </div>
 
