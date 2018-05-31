@@ -12,7 +12,7 @@
                           <p class="arrowUp"><</p>
                            Voornaam: <input type="text" name="fname"><br>
                            Achternaam: <input type="text" name="lname"><br>
-                           <p class="arrowDown">></p>
+                           <p onclick="scrollNext()" class="arrowDown">></p>
                          </div>
                        </div>
 
@@ -157,6 +157,11 @@
                   section:".test"
               });
           });
+  function scrollNext(){
+    console.log("Activeer scrolllsss");
+    $.scrollify.next();//Doesnt work bitch
+  }
+
   // window.onbeforeunload = function(e) {
   //   console.log('Dialog text here.');
   // };
