@@ -17,11 +17,12 @@ body{
   width: 100%;
   height: 100vh;
   float: none !important;
+  position: relative;
 
 }
 .inMiddenVraag{
   margin: 0 auto;
-  padding-top: 40vh !important;
+  padding-top: 27vh !important;
 }
 
 .navbar{
