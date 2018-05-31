@@ -1,4 +1,7 @@
 window.onload = function(){
+  setTimeout(function() {
+     $(window).scrollTop(0);
+ }, 500);
   console.log("kkaas");
   setRandomColor()
 }
