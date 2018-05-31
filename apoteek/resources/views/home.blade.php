@@ -139,12 +139,27 @@
 
 <script>
   console.log('Wats deze');
+  $(function () {
+    $.scrollify({
+        section: ".card",
+        sectionName: false,
+        scrollSpeed: 700,
+        offset: -70,
+        interstitialSection: ".card, .flow-header"
+    });
+});
   $(function(){
               $(".test").css({"height":$(window).height()});
               $.scrollify({
                   section:".test"
               });
           });
+  // window.onbeforeunload = function(e) {
+  //   console.log('Dialog text here.');
+  // };
+  // $(window).unload(function() {
+  //   alert('Handler for .unload() called.');
+  // });
 </script>
     </div>
 </div>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSRF Token -->
+    <!-- CSRF Token en en comment voor de push -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>App Name - @yield('title')</title>
