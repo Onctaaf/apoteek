@@ -24,7 +24,7 @@
     <link href="{{ asset('css/kaas.css') }}" rel="stylesheet">
     <link href="{{ asset('css/try.css') }}" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <script src="http://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
     <script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
@@ -35,7 +35,7 @@
 <body>
     <div id="app" >
       <div id="navcontainer" class="sticky">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">
             <div class="container">
                 <a class="navbarLink" href="https://www.pornhub.com">
                     Apoteek

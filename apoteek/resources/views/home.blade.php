@@ -159,7 +159,7 @@
           });
   function scrollNext(){
     console.log("Activeer scrolllsss");
-    $.scrollify.next();//Doesnt work bitch
+    $.scrollify.next();//Doesnt work bro
   }
 
   // window.onbeforeunload = function(e) {
