@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <script src="http://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
-        <script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
+        <script src="{{asset('js/scrollifypy.js')}}"></script>
         <script src="http://code.jquery.com/jquery-1.6.min.js"></script>
     <script src="{{ asset('js/kaas.js') }}" defer></script>
     <!-- Fonts -->
