@@ -6,7 +6,14 @@
         <div class="col-md-8" >
 
                   <section class="scrollclass">
-                    <p>Dit is onze hoofdpagina bitch</p>
+                    <div class="apoteekHome">
+                      <p class="titelText" >Apoteek</p>
+                      <p class="insideText">Lorus Kip. <span class="highlightSpan">kip</span>Lorus Kip. Lorus Kip. Lorus Kip.<br>orus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus <span class="highlightSpan">kip</span>. Lorus Kip. Lorus Kip< Lorus Kip. Lorus <span class="highlightSpan">kip</span>.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. v v vLorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus</p>
+                    </div>
+                    <div class="apoteekHome">
+                      <p class="titelText" >Apoteek</p>
+                      <p class="insideText">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<br>orus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip< Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. v v vLorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus</p>
+                    </div>
                   </section>
                   <!-- <section class="scrollclass">
                     worst
@@ -14,8 +21,7 @@
                   <section class="scrollclass">
                     brood
                   </section> -->
-                </div><script src="http://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js"></script>
-<script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
+                </div>
 
 <script>
   console.log("Fix links");
@@ -23,27 +29,6 @@
   $( ".Test" ).removeClass( "currentPage" );
   $( ".Faq" ).removeClass( "currentPage" );
   $( ".Contact" ).removeClass( "currentPage" );
-
-
-  $(function () {
-    $.scrollify({
-        section: ".card",
-        sectionName: false,
-        scrollSpeed: 700,
-        offset: -70,
-        interstitialSection: ".card, .flow-header"
-    });
-});
-  $(function(){
-              $(".test").css({"height":$(window).height()});
-              $.scrollify({
-                  section:".test"
-              });
-          });
-  function scrollNext(){
-    console.log("Activeer scrolllsss");
-    $.scrollify.next();//Doesnt work bro
-  }
 
 
   // window.onbeforeunload = function(e) {

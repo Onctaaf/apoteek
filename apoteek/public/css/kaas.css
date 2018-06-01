@@ -27,15 +27,15 @@ body{
 
 .navbar{
   background-color: #212121;
-  color: white;
-  font-size: 120%;
+  color: #CCCCCC;
+  font-size: 130%;
 }
 .navbar a{
-  color: white;
+  color: #CCCCCC;
   color: inherit;
 }
 .nav-link{
-  color: white !important;
+  color: #CCCCCC !important;
 }
 
 .sticky{
@@ -60,6 +60,7 @@ body{
   text-decoration: none !important;
 }
 .deLinks{
+  transition: color 0.3s;
   text-align: center !important;
   cursor: pointer;
   margin: 0 auto;
@@ -70,11 +71,11 @@ body{
 }
 .deLinks:hover{
   border-bottom: #80cbc4 3px solid;
-  color: #e1e5ed;
+  color: #e6e6e6;
 }
 .currentPage{
   border-bottom: #80cbc4 3px solid;
-  color: #e1e5ed;
+  color: #e6e6e6 !important;
 }
 .container{
   padding: 0;
@@ -110,4 +111,48 @@ body{
   width: 2em;
   height: 2em;
   cursor: pointer;
+}
+
+
+.apoteekHome{
+  background-color: #212121;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 50px;
+}
+.titelText{
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 200%;
+  border-bottom: #80cbc4 3px solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 5%;
+}
+.insideText{
+  color: #CCCCCC;
+  padding: 5%;
+}
+
+
+.apoteekFaq{
+  background-color: #212121;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 50px;
+}
+.vraagFaq{
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 150%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 3%;
+}
+.antwoordFaq{
+  color: #CCCCCC;
+  padding: 5%;
+}
+.highlightSpan{
+  color: #009688;
 }
