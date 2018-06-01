@@ -10,7 +10,7 @@
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                           <p>Voornaam: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname"><br>
+                           <p>Bro: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname"><br>
                            Achternaam:  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname"><br></p>
                            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
                            <img onclick="scrolldown()" id="kaasbroodje" src="{{ asset('images/pijl.svg')}}" class="pijldown">
@@ -167,12 +167,12 @@
 
 <script>
   console.log("Fix links");
-  $( ".Apoteek" ).removeClass( "currentPage" );
-  $( ".Test" ).addClass( "currentPage" );
+  $( ".Apoteek" ).addClass( "currentPage" );
+  $( ".Test" ).removeClass( "currentPage" );
   $( ".Faq" ).removeClass( "currentPage" );
   $( ".Contact" ).removeClass( "currentPage" );
 
-  console.log('Wats deze');
+
   $(function () {
     $.scrollify({
         section: ".card",
@@ -192,6 +192,7 @@
     console.log("Activeer scrolllsss");
     $.scrollify.next();//Doesnt work bro
   }
+
 
   // window.onbeforeunload = function(e) {
   //   console.log('Dialog text here.');

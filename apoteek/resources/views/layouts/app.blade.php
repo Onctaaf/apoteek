@@ -37,22 +37,22 @@
       <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">
             <div class="container">
-              <a class = "deLinks navbarLink" href="https:pornhub.com">
+              <a class = "Apoteek deLinks navbarLink" href="apoteek">
                 <p class="LinkBoven">
                     Apoteek
                 </p>
               </a>
-              <a class = "deLinks navbarLink" href="https:pornhub.com">
+              <a class = "Test deLinks navbarLink" href="home">
                 <p class="LinkBoven">
                     Test
                 </p>
               </a>
-              <a class = "deLinks navbarLink" href="https:pornhub.com">
+              <a class = "Faq deLinks navbarLink" href="Faq">
                 <p class="LinkBoven">
                     Faq
                 </p>
               </a>
-              <a class = "deLinks navbarLink" href="https:pornhub.com">
+              <a class = " Contact deLinks navbarLink" href="contact">
                 <p class="LinkBoven">
                     Contact
                 </p>

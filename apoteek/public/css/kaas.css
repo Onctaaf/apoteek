@@ -72,6 +72,10 @@ body{
   border-bottom: #009688 2px solid;
   color: #e1e5ed;
 }
+.currentPage{
+  border-bottom: #009688 2px solid;
+  color: #e1e5ed;
+}
 .container{
   padding: 0;
   margin: 0 auto;

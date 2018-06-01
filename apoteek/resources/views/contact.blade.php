@@ -168,11 +168,11 @@
 <script>
   console.log("Fix links");
   $( ".Apoteek" ).removeClass( "currentPage" );
-  $( ".Test" ).addClass( "currentPage" );
+  $( ".Test" ).removeClass( "currentPage" );
   $( ".Faq" ).removeClass( "currentPage" );
-  $( ".Contact" ).removeClass( "currentPage" );
+  $( ".Contact" ).addClass( "currentPage" );
 
-  console.log('Wats deze');
+
   $(function () {
     $.scrollify({
         section: ".card",
@@ -192,6 +192,7 @@
     console.log("Activeer scrolllsss");
     $.scrollify.next();//Doesnt work bro
   }
+
 
   // window.onbeforeunload = function(e) {
   //   console.log('Dialog text here.');
