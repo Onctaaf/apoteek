@@ -55,7 +55,9 @@ body{
 .navbarLink{
   height: 100%;
   margin: 0 auto;
-  vertical-align: default !important;
+  position: relative;
+  vertical-align: middle;
+  border-bottom: #212121 1px solid;
 }
 .navbarLink:hover{
   cursor: pointer;
