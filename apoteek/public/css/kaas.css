@@ -156,3 +156,13 @@ body{
 .highlightSpan{
   color: #009688;
 }
+
+.tempLink{
+  color: #009688;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.tempLink:hover{
+  color:#CCCCCC;
+  text-decoration: none;
+}

@@ -19,8 +19,8 @@
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
-                      <p class="vraagFaq" >Waarom is de <span class="highlightSpan">PH</span> link weg <span class="highlightSpan">?</span></p>
-                      <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
+                      <p class="vraagFaq" >Waarom is de <span class="highlightSpan"><a class ="tempLink"href="https://www.pornhub.com">PH</a></span> link weg <span class="highlightSpan">?</span></p>
+                      <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lor us Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Ik wil <span class="highlightSpan">welloe teek</span> hebben <span class="highlightSpan">!</span></p>
