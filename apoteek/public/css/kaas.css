@@ -72,3 +72,28 @@ body{
   padding: 0;
   height: 54px;
 }
+
+.pijldown{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-top: 2em;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+
+.pijlup{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin-bottom: 2em;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
