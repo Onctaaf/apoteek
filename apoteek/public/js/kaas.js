@@ -20,3 +20,8 @@ function scrolldown(){
   console.log("zijn geleverd");
       $.scrollify.previous();
   }
+
+document.getElementById("kaasbroodje").addEventListener("click", function(){
+  $.scrollify.next();
+  console.log("broodjes");
+});

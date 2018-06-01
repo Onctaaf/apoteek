@@ -13,7 +13,7 @@
                            <p>Voornaam: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname"><br>
                            Achternaam:  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname"><br></p>
                            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
-                           <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                           <img onclick="scrolldown()" id="kaasbroodje" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                          </div>
                        </div>
 
