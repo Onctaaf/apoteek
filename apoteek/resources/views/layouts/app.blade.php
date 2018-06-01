@@ -37,11 +37,26 @@
       <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">
             <div class="container">
-              <div class = "deLinks">
-                <a class="navbarLink" href="https://www.pornhub.com">
+              <a class = "deLinks navbarLink" href="https:pornhub.com">
+                <p class="LinkBoven">
                     Apoteek
-                </a>
-              </div>
+                </p>
+              </a>
+              <a class = "deLinks navbarLink" href="https:pornhub.com">
+                <p class="LinkBoven">
+                    Test
+                </p>
+              </a>
+              <a class = "deLinks navbarLink" href="https:pornhub.com">
+                <p class="LinkBoven">
+                    Faq
+                </p>
+              </a>
+              <a class = "deLinks navbarLink" href="https:pornhub.com">
+                <p class="LinkBoven">
+                    Contact
+                </p>
+              </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

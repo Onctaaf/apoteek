@@ -52,17 +52,25 @@ body{
   margin-top: 54px;
   margin-left: 0px;
 }
-.navbarLink{
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-  vertical-align: middle;
-  border-bottom: #212121 1px solid;
+.LinkBoven{
+  border-bottom: #212121 2px solid;
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  text-decoration: none !important;
 }
-.navbarLink:hover{
+.deLinks{
+  text-align: center !important;
   cursor: pointer;
-  text-decoration: none;
-  border-bottom: #009688 1px solid;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  text-decoration: none !important;
+  width: 8%;
+}
+.deLinks:hover{
+  border-bottom: #009688 2px solid;
+  color: #e1e5ed;
 }
 .container{
   padding: 0;
