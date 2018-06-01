@@ -19,7 +19,7 @@
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
-                      <p class="vraagFaq" >Waarom is de <span class="highlightSpan">PH</span> link weg <span class="highlightSpan">?</span></p>
+                      <p class="vraagFaq" >Waarom is de <span class="highlightSpan"><a href="https://www.pornhub.com">PH</a></span> link weg <span class="highlightSpan">?</span></p>
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
