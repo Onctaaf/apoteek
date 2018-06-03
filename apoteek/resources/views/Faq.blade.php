@@ -15,7 +15,7 @@
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
-                      <p class="vraagFaq" >Zijn <span class="highlightSpan">teken</span> gay <span class="highlightSpan">?</span></p>
+                      <p class="vraagFaq" >Zijn <span class="highlightSpan">teken</span> stom <span class="highlightSpan">?</span></p>
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
@@ -27,7 +27,7 @@
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                     <div class="apoteekFaq">
-                      <p class="vraagFaq" >Wholla wats deze <span class="highlightSpan">teek</span> eh zemmer <span class="highlightSpan">?</span></p>
+                      <p class="vraagFaq" >Wats deze <span class="highlightSpan">teek</span> eh <span class="highlightSpan">?</span></p>
                       <p class="antwoordFaq">Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. .<br><br>Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.  Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip.Lorus Kip. Lorus Kip. Lorus Kip. Lorus Kip.<p>
                     </div>
                   </section>
