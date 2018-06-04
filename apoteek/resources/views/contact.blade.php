@@ -6,7 +6,7 @@
         <div class="col-md-8" >
 
                   <section class="scrollclass">
-                    
+
                   </section>
                   <!-- <section class="scrollclass">
                     worst
@@ -42,7 +42,7 @@
           });
   function scrollNext(){
     console.log("Activeer scrolllsss");
-    $.scrollify.next();//Doesnt work bro
+    $.scrollify.next();//Doesnt work bro. klopt bro...
   }
 
 
@@ -54,5 +54,28 @@
   // });
 </script>
     </div>
+    <form action="/action_page.php" method="get">
+      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+        <div class="inMiddenVraag">
+           <p>
+           <input type="text" name="naam" placeholder="naam" style="margin-top: .3em; width: 50%;" required><br>
+           <input type="text" name="email" placeholder="E-mail" style="margin-top: .3em; width: 50%;" required><br>
+             <input type="text" name="subject" placeholder="onderwerp" style="margin-top: .3em; width: 24.7%;" required>
+
+             <select placeholder="categorie" style="width: 24.8%; height: 2em;">
+                 <option value="ideeën">ideeën</option>
+                 <option value="klachten">klachten</option>
+                 <option value="vragen">vragen</option>
+                 <option value="anders">anders</option>
+             </select>
+
+             <br>
+           <textarea type="text" name="content" placeholder="inhoud" required style="margin-top: .3em; width: 50%; font-size: .8em; resize: none;" rows="7" maxlength="800"></textarea><br>
+           <input type="submit" value="Submit" style="width: 50%; background-color: #009688; border: 0; border-radius: 4px;">
+         </p>
+           <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
+         </div>
+       </div>
+     </form>
 </div>
 @endsection
