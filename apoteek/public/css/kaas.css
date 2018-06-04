@@ -55,7 +55,7 @@ body{
 #inhoudLine{
   transform: 0.3s ease width;
   background-color: #009688;
-  width: 30%;
+  width: 0%;
   height: 100%;
 }
 .LinkBoven{

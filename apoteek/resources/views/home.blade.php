@@ -195,22 +195,22 @@
           });
 
 
-  $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    console.log(scroll);
-    console.log(document.body.scrollHeight);
-
-    var helemaal = document.body.scrollHeight;
-    var temp = helemaal/100;
-    var positie = scroll/temp;
-    var parseIntergert = parseInt(positie);
-    console.log(parseIntergert);
-    console.log("Ding", parseIntergert);
-
-    $('#inhoudLine').css("width", ""+parseIntergert+"%");
-
-
-    });
+  // $(window).scroll(function (event) {
+  //   var scroll = $(window).scrollTop();
+  //   console.log(scroll);
+  //   console.log(document.body.scrollHeight);
+  //
+  //   var helemaal = document.body.scrollHeight;
+  //   var temp = helemaal/100;
+  //   var positie = scroll/temp;
+  //   var parseIntergert = parseInt(positie);
+  //   console.log(parseIntergert);
+  //   console.log("Ding", parseIntergert);
+  //
+  //   $('#inhoudLine').css("width", ""+parseIntergert+"%");
+  //
+  //
+  //   });
   // function scrollNext(){
   //   console.log("Activeer scrolllsss");
   //   $.scrollify.next();//Doesnt work bro
