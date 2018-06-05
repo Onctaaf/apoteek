@@ -17,10 +17,9 @@ var positie = scroll/temp;
 var parseIntergert = parseInt(positie);
 $('#inhoudLine').css("width", ""+parseIntergert+"%");
 
+//Nodig voor de bovenlaad balk
 $(window).scroll(function (event) {
   var scroll = $(window).scrollTop();//Bottom
-  // console.log(scroll);
-  // console.log(document.body.scrollHeight);
 
   scroll = scroll + parseInt(window.innerHeight);
 
@@ -28,8 +27,6 @@ $(window).scroll(function (event) {
   var temp = helemaal/100;
   var positie = scroll/temp;
   var parseIntergert = parseInt(positie);
-  // console.log(parseIntergert);
-  // console.log("Ding", parseIntergert);
 
   console.log(parseIntergert);
 
@@ -38,6 +35,4 @@ $(window).scroll(function (event) {
   }
 
   $('#inhoudLine').css("width", ""+parseIntergert+"%");
-
-
   });
