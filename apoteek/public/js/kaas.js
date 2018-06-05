@@ -1,4 +1,4 @@
-window.onload() = function(){
+window.onload = function(){
   checkpage();
   function validateForm() {
     var x = document.forms["test"]["hoofdpijn"].value;
@@ -11,8 +11,12 @@ window.onload() = function(){
 
 function checkpage(){
   var url = window.location.href;
-  if(url.endsWith("faq") || url.endsWith("apoteek")){
-    document.getElementById.style.overflow = "visible";
+  if(url.endsWith("Faq") || url.endsWith("apoteek")){
+    document.getElementById("body").style.overflow = "visible";
+    console.log("scroll enabled");
+  }
+  else{
+    console.log("scroll disabled");
   }
 }
 
