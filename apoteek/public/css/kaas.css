@@ -175,14 +175,30 @@ body{
 .submitButton{
   transition: 0.3s ease all;
   cursor: pointer;
+  background-color: #212121 !important;
+  border:solid 1px #009688 !important;
+  width: 50%;
+  border-radius: 4px;
+  color:#CCCCCC;
+}
+.submitButton:hover{
+  color: #222222;
+  background-color: #009688 !important;
+  border:solid 1px #009688 !important;
+}
+
+
+.submitButtontest{
+  transition: 0.3s ease all;
+  cursor: pointer;
   background-color: #009688 !important;
   border:solid 1px #009688 !important;
   width: 50%;
   border-radius: 4px;
-  color:#212121;
+    color: #222222;
 }
-.submitButton:hover{
-  color: #CCCCCC;
+.submitButtontest:hover{
+  color:#CCCCCC;
   background-color: #212121 !important;
   border:solid 1px #009688 !important;
 }

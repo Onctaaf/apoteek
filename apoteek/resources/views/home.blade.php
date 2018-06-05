@@ -144,7 +144,7 @@
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
                          <p>E-mail van huisarts:  <input type="text" name="fname"><br>
                          Uw E-mail:   <input type="text" name="lname"><br></p>
-                         <input type="submit" value="Submit" class="submitButton"><br>
+                         <input type="submit" value="Submit" class="submitButtontest"><br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -171,13 +171,11 @@
 <script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
 
 <script>
-  console.log("Fix links");
   $( ".Apoteek" ).removeClass( "currentPage" );
   $( ".Test" ).addClass( "currentPage" );
   $( ".Faq" ).removeClass( "currentPage" );
   $( ".Contact" ).removeClass( "currentPage" );
 
-  console.log('Wats deze');
   $(function () {
     $.scrollify({
         section: ".card",
