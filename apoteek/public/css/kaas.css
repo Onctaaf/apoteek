@@ -203,3 +203,18 @@ body{
   border:solid 1px #009688 !important;
 }
 /* sdfsd */
+
+
+input:focus {
+    outline: none !important;
+    border:1px solid #009688;
+    border-radius: 4px;
+    height: 2em;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:1px solid #009688;
+    border-radius: 4px;
+    rows: 6;
+}
