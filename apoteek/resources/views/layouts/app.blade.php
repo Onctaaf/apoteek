@@ -32,7 +32,7 @@
 
 
 </head>
-<body id="body" style="overflow: hidden">
+<body>
     <div id="app" >
       <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">
@@ -100,7 +100,7 @@
                             <div class="underline">
                               <div id="inhoudLine">
                               </div>
-                            </div>
+                            </div>class
 </div>
 
         <main class="py-4">

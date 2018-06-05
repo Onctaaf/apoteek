@@ -144,7 +144,7 @@
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
                          <p>E-mail van huisarts:  <input type="text" name="fname"><br>
                          Uw E-mail:   <input type="text" name="lname"><br></p>
-                         <input type="submit" value="Submit" class="submitButtontest"><br>
+                         <input type="submit" value="Submit" class="submitButton"><br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
