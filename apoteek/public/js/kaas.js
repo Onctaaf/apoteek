@@ -1,4 +1,5 @@
 window.onload = function(){
+
   checkpage();
   function validateForm() {
     var x = document.forms["test"]["hoofdpijn"].value;
@@ -8,26 +9,18 @@ window.onload = function(){
     }
   }
 }
-
 function checkpage(){
   var url = window.location.href;
   if(url.endsWith("Faq") || url.endsWith("apoteek")){
     document.getElementById("body").style.overflow = "visible";
-    console.log("scroll enabled");
-  }
-  else{
-    console.log("scroll disabled");
   }
 }
 
-console.log("ready!");
 function scrolldown(){
-  console.log("de kaasjes");
   $.scrollify.next();
 }
 
 function scrollup(){
-  console.log("zijn geleverd");
   $.scrollify.previous();
 }
 var scroll = parseInt(window.innerHeight);
@@ -49,7 +42,6 @@ $(window).scroll(function (event) {
   var positie = scroll/temp;
   var parseIntergert = parseInt(positie);
 
-  console.log(parseIntergert);
 
   if(parseIntergert > 100){
     parseIntergert = 100;
