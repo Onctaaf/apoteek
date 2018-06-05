@@ -42,7 +42,7 @@
           });
   function scrollNext(){
     console.log("Activeer scrolllsss");
-    $.scrollify.next();//Doesnt work bro. klopt bro...
+    $.scrollify.next();//Doesnt work bro
   }
 
 
@@ -58,20 +58,20 @@
       <div class="fullSizeVraag test colorpad" style="position fixed; overflow: hidden; ">
         <div class="inMiddenVraag" scroll="no" style="overflow: hidden">
            <p>
-           <input type="text" name="naam" placeholder="naam" style="margin-top: .3em; width: 50%;" required><br>
+           <input type="text" name="naam" placeholder="Naam" style="margin-top: .3em; width: 50%;" required><br>
            <input type="text" name="email" placeholder="E-mail" style="margin-top: .3em; width: 50%;" required><br>
-             <input type="text" name="subject" placeholder="onderwerp" style="margin-top: .3em; width: 24.7%;" required>
+             <input type="text" name="subject" placeholder="Onderwerp" style="margin-top: .3em; width: 24.7%;" required>
 
              <select placeholder="categorie" style="width: 24.8%; height: 2em;">
-                 <option value="ideeën">ideeën</option>
-                 <option value="klachten">klachten</option>
-                 <option value="vragen">vragen</option>
-                 <option value="anders">anders</option>
+                 <option value="ideeën">Ideeën</option>
+                 <option value="klachten">Klachten</option>
+                 <option value="vragen">Vragen</option>
+                 <option value="anders">Anders</option>
              </select>
 
              <br>
-           <textarea type="text" name="content" placeholder="inhoud" required style="margin-top: .3em; width: 50%; font-size: .8em; resize: none;" rows="7" maxlength="800"></textarea><br>
-           <input type="submit" value="Submit" style="width: 50%; background-color: #009688; border: 0; border-radius: 4px;">
+           <textarea type="text" name="content" placeholder="Inhoud" required style="margin-top: .3em; width: 50%; font-size: 1em; resize: none; border-radius: 5px;" rows="6" maxlength="800"></textarea><br>
+           <input class = "submitButton" type="submit" value="Submit">
          </p>
            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
          </div>
