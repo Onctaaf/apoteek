@@ -32,7 +32,7 @@
 
 
 </head>
-<body>
+<body style="overflow: hidden">
     <div id="app" >
       <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">

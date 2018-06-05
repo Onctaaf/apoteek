@@ -1,3 +1,20 @@
+window.onload() = function(){
+  checkpage();
+  function validateForm() {
+    var x = document.forms["test"]["hoofdpijn"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+  }
+}
+
+function checkpage(){
+  var url = window.location.href;
+  if(url.endsWith("faq") || url.endsWith("apoteek")){
+    document.getElementById.style.overflow = "visible";
+  }
+}
 
 console.log("ready!");
 function scrolldown(){
