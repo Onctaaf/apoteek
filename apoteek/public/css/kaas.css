@@ -216,3 +216,12 @@ textarea:focus {
     border-radius: 4px;
     rows: 6;
 }
+
+select:focus{
+  outline: none !important;
+  border: 1px solid #009688;
+  border-radius: 4px;
+}
+option:hover{
+  background-color: #009688;
+}

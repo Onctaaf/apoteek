@@ -100,7 +100,7 @@
                             <div class="underline">
                               <div id="inhoudLine">
                               </div>
-                            </div>class
+                            </div>
 </div>
 
         <main class="py-4">
