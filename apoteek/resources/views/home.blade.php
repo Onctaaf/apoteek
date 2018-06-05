@@ -6,12 +6,12 @@
         <div class="col-md-8" >
 
                   <section class="scrollclass">
-                    <form action="/action_page.php" method="get">
+                    <form action="/action_page.php" method="get" onsubmit="return validateForm()" name="test">
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                           <p>Voornaam: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname"><br>
-                           Achternaam:  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname"><br></p>
+                           <p><input type="text" name="fname" placeholder="voornaam"><br>
+                           <input type="text" name="lname" placeholder="achternaam"><br></p>
                            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
                            <img onclick="scrolldown()" id="kaasbroodje" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                          </div>
@@ -21,7 +21,7 @@
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
                          <p>Heeft u last van hoofdpijn?</p>
-                         <input type="radio" name="hoofdpijn" value="Ja">Ja<br>
+                         <input type="radio" name="hoofdpijn" value="Ja" required>Ja<br>
                          <input type="radio" name="hoofdpijn" value="Nee">Nee<br>
                          <input type="radio" name="hoofdpijn" value="Beetje">Beetje<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
@@ -76,7 +76,7 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Heeft u de teek verweiderd?</p>
+                         <p>Heeft u de teek verwijderd?</p>
                          <input type="radio" name="verweiderd" value="Ja">Ja<br>
                          <input type="radio" name="verweiderd" value="Nee">Nee<br>
                          <input type="radio" name="verweiderd" value="Beetje">I tried<br>
@@ -87,7 +87,7 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Wilt u een informatie filmpje hoe je een teek verweiderd?</p>
+                         <p>Wilt u een informatie filmpje hoe je een teek verwijderd?</p>
                          <input type="radio" name="filmpje" value="Ja">Ja<br>
                          <input type="radio" name="filmpje" value="Nee">Nee<br>
                          <input type="radio" name="filmpje" value="Later">Ja, na deze vragenlijst<br>
