@@ -171,13 +171,11 @@
 <script src="http://yourjavascript.com/6140341282/jquery-scrollify-min.js"></script>
 
 <script>
-  console.log("Fix links");
   $( ".Apoteek" ).removeClass( "currentPage" );
   $( ".Test" ).addClass( "currentPage" );
   $( ".Faq" ).removeClass( "currentPage" );
   $( ".Contact" ).removeClass( "currentPage" );
 
-  console.log('Wats deze');
   $(function () {
     $.scrollify({
         section: ".card",
