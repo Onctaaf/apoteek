@@ -47,14 +47,14 @@ body{
 .underline{
   width: 100%;
   height: 4px;
-  background-color: green;
+  background-color: #00796b;
   z-index: 105;
   margin-top: 54px;
   margin-left: 0px;
 }
 #inhoudLine{
   transform: 0.3s ease width;
-  background-color: #009688;
+  background-color: #80cbc4;
   width: 0%;
   height: 100%;
 }
@@ -76,11 +76,11 @@ body{
   width: 8%;
 }
 .deLinks:hover{
-  border-bottom: #80cbc4 3px solid;
+  border-bottom: #009688 3px solid;
   color: #e6e6e6;
 }
 .currentPage{
-  border-bottom: #80cbc4 3px solid;
+  border-bottom: #009688 3px solid;
   color: #e6e6e6 !important;
 }
 .container{
