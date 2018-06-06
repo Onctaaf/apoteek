@@ -58,9 +58,9 @@
       <div class="fullSizeVraag test colorpad" style="position fixed; overflow: hidden; ">
         <div class="inMiddenVraag" scroll="no" style="overflow: hidden">
            <p>
-           <input type="text" name="naam" placeholder="Naam" style="margin-top: .3em; width: 50%;" required><br>
-           <input type="text" name="email" placeholder="E-mail" style="margin-top: .3em; width: 50%;" required><br>
-             <input type="text" name="subject" placeholder="Onderwerp" style="margin-top: .3em; width: 24.7%;" required>
+           <input id="naam" type="text" name="naam" placeholder="Naam" style="margin-top: .3em; width: 50%;" required><br>
+           <input id="email" type="text" name="email" placeholder="E-mail" style="margin-top: .3em; width: 50%;" required><br>
+             <input id="onderwerp" type="text" name="subject" placeholder="Onderwerp" style="margin-top: .3em; width: 24.7%;" required>
 
              <select placeholder="categorie" style="width: 24.8%; height: 2em;">
                  <option value="ideeën">Ideeën</option>
@@ -70,7 +70,7 @@
              </select>
 
              <br>
-           <textarea type="text" name="content" placeholder="Inhoud" required style="margin-top: .3em; width: 50%; font-size: 1em; resize: none; border-radius: 5px;" rows="6" maxlength="800"></textarea><br>
+           <textarea id="text" type="text" name="content" placeholder="Inhoud" required style="margin-top: .3em; width: 50%; font-size: 1em; resize: none; border-radius: 5px;" rows="6" maxlength="800"></textarea><br>
            <input class = "submitButton" type="submit" value="Submit">
          </p>
            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->

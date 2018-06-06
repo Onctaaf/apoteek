@@ -127,7 +127,6 @@ body{
   margin-top: 50px;
 }
 .titelText{
-  color: #e6e6e6;
   text-align: center;
   font-size: 200%;
   border-bottom: #80cbc4 3px solid;
@@ -136,7 +135,6 @@ body{
   padding-top: 5%;
 }
 .insideText{
-  color: #CCCCCC;
   padding: 5%;
 }
 
@@ -148,7 +146,6 @@ body{
   margin-top: 50px;
 }
 .vraagFaq{
-  color: #e6e6e6;
   text-align: center;
   font-size: 150%;
   margin-left: 20%;
@@ -156,7 +153,6 @@ body{
   padding-top: 3%;
 }
 .antwoordFaq{
-  color: #CCCCCC;
   padding: 5%;
 }
 .highlightSpan{
@@ -206,22 +202,35 @@ body{
 input:focus {
     outline: none !important;
     border:1px solid #009688;
-    border-radius: 4px;
+    border-radius: 7px;
     height: 2em;
 }
 
 textarea:focus {
     outline: none !important;
     border:1px solid #009688;
-    border-radius: 4px;
+    border-radius: 7px;
     rows: 6;
 }
 
 select:focus{
   outline: none !important;
   border: 1px solid #009688;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 option:hover{
   background-color: #009688;
+}
+
+input{
+  background-color: #AAAAAA;
+  border-radius: 7px;
+  border-color: #616161;
+}
+
+
+textarea{
+  background-color: #AAAAAA;
+  border-radius: 7px;
+  border-color: #616161;
 }

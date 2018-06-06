@@ -59,7 +59,7 @@
               </a>
               <a class = "Theme deLinks navbarLink" id="Theme" style="z-index: 200;">
                 <p class="LinkBoven">
-                    <img id="ThemeImg" src="{{ asset('images/zon.svg')}}">
+                    <img style="height: auto; width: 30px;" id="ThemeImg" src="{{ asset('images/zon.svg')}}">
                 </p>
               </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
