@@ -182,24 +182,46 @@ body{
   color:#CCCCCC;
 }
 .submitButton:hover{
-  color: #222222;
+  color: #212121;
   background-color: #009688 !important;
   border:solid 1px #009688 !important;
 }
 
 
-/* sdfsd */
-/* .submitButton{
+.submitButtontest{
   transition: 0.3s ease all;
   cursor: pointer;
-  background-color: #212121 !important;
+  background-color: #009688 !important;
   border:solid 1px #009688 !important;
   width: 50%;
   border-radius: 4px;
-  color:#CCCCCC;
+    color: #222222;
 }
-.submitButton:hover{
-  color: #CCCCCC;
-  background-color: #009688 !important;
+.submitButtontest:hover{
+  color:#CCCCCC;
+  background-color: #212121 !important;
   border:solid 1px #009688 !important;
-} */
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid #009688;
+    border-radius: 4px;
+    height: 2em;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:1px solid #009688;
+    border-radius: 4px;
+    rows: 6;
+}
+
+select:focus{
+  outline: none !important;
+  border: 1px solid #009688;
+  border-radius: 4px;
+}
+option:hover{
+  background-color: #009688;
+}
