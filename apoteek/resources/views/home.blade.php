@@ -3,10 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8" >
+        <div class="col-md-8" id="colmd8">
 
-                  <section class="scrollclass">
-                    <form action="/action_page.php" method="get" onsubmit="return validateForm()" name="test">
+                  <section class="scrollclass" id="scrollclass">
+                    <form id="formid" action="/action_page.php" method="get" onsubmit="return validateForm()" name="test">
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
