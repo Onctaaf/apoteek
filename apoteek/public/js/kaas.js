@@ -44,12 +44,17 @@ function setup(){
 function toDark(){
   document.getElementById("body").style.backgroundColor = "#EEEEEE";
   document.getElementById("html").style.backgroundColor = "#EEEEEE";
+  document.getElementById("html").style.color = "#CCCCCC";
+
+
   localStorage.setItem('theme', '1');
 }
 
 function toLight(){
   document.getElementById("body").style.backgroundColor = "#303030";
   document.getElementById("html").style.backgroundColor = "#303030";
+  document.getElementById("html").style.color = "#212121 !important";
+
   localStorage.setItem('theme', '0');
 }
 
