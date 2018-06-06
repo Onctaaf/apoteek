@@ -42,8 +42,8 @@ function setup(){
 }
 
 function toDark(){
-  document.getElementById("body").style.backgroundColor = "#EEEEEE";
-  document.getElementById("html").style.backgroundColor = "#EEEEEE";
+    document.getElementById("body").style.backgroundColor = "#303030";
+    document.getElementById("html").style.backgroundColor = "#303030";
   document.getElementById("html").style.color = "#CCCCCC";
 
 
@@ -51,9 +51,9 @@ function toDark(){
 }
 
 function toLight(){
-  document.getElementById("body").style.backgroundColor = "#303030";
-  document.getElementById("html").style.backgroundColor = "#303030";
-  document.getElementById("html").style.color = "#212121 !important";
+  document.getElementById("body").style.backgroundColor = "#EEEEEE";
+  document.getElementById("html").style.backgroundColor = "#EEEEEE";
+  document.getElementById("html").style.color = "#212121";
 
   localStorage.setItem('theme', '0');
 }
