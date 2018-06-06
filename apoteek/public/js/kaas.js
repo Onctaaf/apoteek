@@ -42,10 +42,10 @@ function setup(){
 }
 
 function toDark(){
-    document.getElementById("body").style.backgroundColor = "#303030";
-    document.getElementById("html").style.backgroundColor = "#303030";
+    document.getElementById("body").style.backgroundColor = "#404040";
+    document.getElementById("html").style.backgroundColor = "#404040";
   document.getElementById("html").style.color = "#CCCCCC";
-
+    document.getElementById("ThemeImg").src = "images/zon.svg";
 
   localStorage.setItem('theme', '1');
 }
@@ -54,6 +54,7 @@ function toLight(){
   document.getElementById("body").style.backgroundColor = "#EEEEEE";
   document.getElementById("html").style.backgroundColor = "#EEEEEE";
   document.getElementById("html").style.color = "#212121";
+    document.getElementById("ThemeImg").src = "images/maan.svg";
 
   localStorage.setItem('theme', '0');
 }

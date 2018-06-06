@@ -1,11 +1,11 @@
 html{
   height: 100vh;
-  background-color: #303030;
+  background-color: #404040;
   color: #CCCCCC;
 }
 body{
   z-index: 1;
-  background-color: #303030;
+  background-color: #404040;
 }
 
 .scrollclass{
