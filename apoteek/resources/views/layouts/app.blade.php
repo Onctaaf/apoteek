@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" id="html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +35,7 @@
 <body id="body" style="overflow: hidden;">
     <div id="app" >
       <div id="navcontainer" class="sticky">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont" id="navbar">
             <div class="container">
               <a class = "Apoteek deLinks navbarLink" href="apoteek">
                 <p class="LinkBoven">
@@ -54,7 +54,12 @@
               </a>
               <a class = " Contact deLinks navbarLink" href="contact">
                 <p class="LinkBoven">
-                    Contact
+                  Contact
+                </p>
+              </a>
+              <a class = "Theme deLinks navbarLink" id="Theme">
+                <p class="LinkBoven">
+                    <img id="ThemeImg" src="theme.svg">
                 </p>
               </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

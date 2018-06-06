@@ -1,5 +1,24 @@
 window.onload = function(){
+  setup();
+  var Theme = document.getElementById("Theme");
+  var currentTheme = 1;
+  Theme.onclick = function(){
+    document.getElementById("body").style.transition = ".3s all ease";
+    document.getElementById("html").style.transition = ".3s all ease";
+    if(currentTheme == 1){
+      toLight();
+      currentTheme = 0;
+    }
+    else{
+      toDark();
+      currentTheme = 1;
+    }
+    setTimeout(function(){
+      document.getElementById("body").style.transition = "none";
+      document.getElementById("html").style.transition = "none";
+    }, 500);
 
+  }
   checkpage();
   function validateForm() {
     var x = document.forms["test"]["hoofdpijn"].value;
@@ -9,6 +28,33 @@ window.onload = function(){
     }
   }
 }
+
+function setup(){
+  currentTheme = localStorage.getItem('theme');
+  if(currentTheme == 1){
+    toDark();
+    currentTheme = 1;
+  }
+  else{
+    toLight();
+    currentTheme = 0;
+  }
+}
+
+function toDark(){
+  document.getElementById("body").style.backgroundColor = "#EEEEEE";
+  document.getElementById("html").style.backgroundColor = "#EEEEEE";
+  localStorage.setItem('theme', '1');
+}
+
+function toLight(){
+  document.getElementById("body").style.backgroundColor = "#303030";
+  document.getElementById("html").style.backgroundColor = "#303030";
+  localStorage.setItem('theme', '0');
+}
+
+
+
 function checkpage(){
   var url = window.location.href;
   if(url.endsWith("Faq") || url.endsWith("apoteek")){
