@@ -8,6 +8,13 @@ body{
   background-color: #404040;
 }
 
+.main{
+  background-image: url('http://www.noordlimburgbusiness.nl/foto/albums/10676/full/');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .scrollclass{
   width: 100%;
   height: 100vh;
@@ -119,6 +126,12 @@ body{
   cursor: pointer;
 }
 
+.mainHome{
+  background-color: rgba(33, 33, 33, 0.9);
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 100px;
+}
 
 .apoteekHome{
   background-color: #212121;
