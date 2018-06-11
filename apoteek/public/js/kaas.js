@@ -1,10 +1,21 @@
 window.onload = function(){
+  var url = window.location.href;
   setup();
   var Theme = document.getElementById("Theme");
   var currentTheme = 1;
   Theme.onclick = function(){
     document.getElementById("body").style.transition = ".3s all ease";
     document.getElementById("html").style.transition = ".3s all ease";
+    if(url.endsWith("contact")){
+      document.getElementById("naam").style.transition = ".3s all ease";
+      document.getElementById("email").style.transition = ".3s all ease";
+      document.getElementById("onderwerp").style.transition = ".3s all ease";
+      document.getElementById("text").style.transition = ".3s all ease";
+    }
+    elements = document.getElementsByTagName('apoteekHome');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].style.transition = ".3 all ease";
+    }
     if(currentTheme == 1){
       toLight();
       currentTheme = 0;
@@ -16,6 +27,16 @@ window.onload = function(){
     setTimeout(function(){
       document.getElementById("body").style.transition = "none";
       document.getElementById("html").style.transition = "none";
+      if(url.endsWith("contact")){
+        document.getElementById("naam").style.transition = "none";
+        document.getElementById("email").style.transition = "none";
+        document.getElementById("onderwerp").style.transition = "none";
+        document.getElementById("text").style.transition = "none";
+      }
+      elements = document.getElementsByTagName('apoteekHome');
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.transition = "none";
+      }
     }, 500);
 
   }
@@ -46,7 +67,30 @@ function toDark(){
     document.getElementById("html").style.backgroundColor = "#404040";
   document.getElementById("html").style.color = "#CCCCCC";
     document.getElementById("ThemeImg").src = "images/zon.svg";
-
+        elements = document.getElementsByClassName('pijldown');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].src = 'images/pijl.svg';
+        }
+        elements = document.getElementsByClassName('pijlup');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].src = 'images/pijl.svg';
+        }
+        elements = document.getElementsByClassName('apoteekFaq');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#212121';
+        }
+        elements = document.getElementsByTagName('input');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#AAAAAA';
+        }
+        elements = document.getElementsByTagName('textarea');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#AAAAAA';
+        }
+        elements = document.getElementsByClassName('apoteekHome');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#212121';
+        }
   localStorage.setItem('theme', '1');
 }
 
@@ -55,10 +99,34 @@ function toLight(){
   document.getElementById("html").style.backgroundColor = "#EEEEEE";
   document.getElementById("html").style.color = "#212121";
     document.getElementById("ThemeImg").src = "images/maan.svg";
+        elements = document.getElementsByClassName('pijldown');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].src = 'images/arrowblack.svg';
+        }
+        elements = document.getElementsByClassName('pijlup');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].src = 'images/arrowblack.svg';
+        }
+        elements = document.getElementsByClassName('apoteekFaq');
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.backgroundColor = '#DDDDDD';
+        }
 
+        elements = document.getElementsByTagName('input');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#EEEEEE';
+        }
+                elements = document.getElementsByTagName('textarea');
+                for (var i = 0; i < elements.length; i++) {
+                  elements[i].style.backgroundColor = '#EEEEEE';
+                }
+
+                elements = document.getElementsByClassName('apoteekHome');
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].style.backgroundColor = '#DDDDDD';
+                }
   localStorage.setItem('theme', '0');
 }
-
 
 
 function checkpage(){
