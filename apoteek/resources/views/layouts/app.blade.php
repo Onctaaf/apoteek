@@ -32,11 +32,16 @@
 
 
 </head>
-<body id="body" style="overflow: hidden;">
+<body id="body" style="overflow: hidden;" class="@yield('body')">
     <div id="app" >
       <div id="navcontainer" class="sticky">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel sticky tryFont" id="navbar">
             <div class="container">
+              <a class = "Main deLinks navbarLink" href="main">
+                <p class="LinkBoven">
+                    Home
+                </p>
+              </a>
               <a class = "Apoteek deLinks navbarLink" href="apoteek">
                 <p class="LinkBoven">
                     Apoteek

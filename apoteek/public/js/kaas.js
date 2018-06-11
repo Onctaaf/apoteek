@@ -131,7 +131,7 @@ function toLight(){
 
 function checkpage(){
   var url = window.location.href;
-  if(url.endsWith("Faq") || url.endsWith("apoteek")){
+  if(url.endsWith("Faq") || url.endsWith("apoteek") || url.endsWith("maint")){
     document.getElementById("body").style.overflow = "visible";
   }
 }
