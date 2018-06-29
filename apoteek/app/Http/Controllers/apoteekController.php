@@ -15,4 +15,9 @@ class apoteekController extends Controller
   {
       return view('apoteek');
   }
+
+  public function redirect()
+  {
+    return redirect('/apoteek');
+  }
 }
