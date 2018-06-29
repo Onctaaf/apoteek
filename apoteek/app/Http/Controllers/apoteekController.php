@@ -20,6 +20,7 @@ class apoteekController extends Controller
       return view('apoteek');
   }
 
+
   public function maakPdf(Request $request){
     require('fpdf181/fpdf.php');
     header('Content-type: application/pdf');
@@ -36,5 +37,9 @@ class apoteekController extends Controller
 
     // return view('main');
 
+  // public function redirect()
+  // {
+  //   return redirect('/apoteek');
+  // }
   }
 }
