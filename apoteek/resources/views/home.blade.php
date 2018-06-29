@@ -18,13 +18,23 @@
                          </div>
                        </div>
 
+                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                         <div class="inMiddenVraag">
+                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                           <p>Hoe oud bent u?</p>
+                           <input type="number" name="age" value="" required>
+                           <br>
+                           <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                         </div>
+                       </div>
+
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
                          <p>Heeft u last van hoofdpijn?</p>
                          <input type="radio" name="hoofdpijn" value="Ja" required>Ja<br>
                          <input type="radio" name="hoofdpijn" value="Nee">Nee<br>
-                         <input type="radio" name="hoofdpijn" value="Beetje">Beetje<br>
+                         <input type="radio" name="hoofdpijn" value="Ik twijfel">Ik twijfel<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -46,7 +56,7 @@
                          <p>Bent u laatst vaak moe?</p>
                          <input type="radio" name="moe" value="Ja" required>Ja<br>
                          <input type="radio" name="moe" value="Nee">Nee<br>
-                         <input type="radio" name="moe" value="Beetje">Beetje<br>
+                         <input type="radio" name="moe" value="Meer dan normaal">Meer dan normaal<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -57,19 +67,7 @@
                          <p>Heeft u een tekenbeet opgemerkt?</p>
                          <input type="radio" name="opgemerkt" value="Ja" required>Ja<br>
                          <input type="radio" name="opgemerkt" value="Nee">Nee<br>
-                         <input type="radio" name="opgemerkt" value="Twijfel">Twijfel<br>
-                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
-                       </div>
-                     </div>
-
-                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
-                       <div class="inMiddenVraag">
-                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Wanneer heeft u de tekenbeet opgemerkt?</p>
-                         <input type="radio" name="wanopgemerkt" value="Binnen24">Binnen 24 uur na de beet<br>
-
-                        <input type="radio" name="wanopgemerkt" value="Na24" required>Na 24 na de beet<br>
-                         <input type="radio" name="wanopgemerkt" value="Twijfel">Ik weet het niet<br>
+                         <input type="radio" name="opgemerkt" value="Ik weet het niet zeker">Ik weet het niet zeker<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -80,7 +78,7 @@
                          <p>Heeft u de teek verwijderd?</p>
                          <input type="radio" name="verweiderd" value="Ja" required>Ja<br>
                          <input type="radio" name="verweiderd" value="Nee">Nee<br>
-                         <input type="radio" name="verweiderd" value="Beetje">I tried<br>
+                         <input type="radio" name="verweiderd" value="Ik heb het geprobeerd">Ik heb het geprobeerd<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -88,8 +86,8 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Wilt u een informatie filmpje hoe je een teek verwijderd?</p>
-                         <input type="radio" name="filmpje" value="Later">Ja, na deze vragenlijst<br>
+                         <p>Wilt u na deze test een informatie filmpje over hoe een teek te verwijderen?</p>
+                         <input type="radio" name="filmpje" value="Ja">Ja<br>
                          <input type="radio" name="filmpje" value="Nee">Nee<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
@@ -98,10 +96,10 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Heeft u een rode kring?</p>
+                         <p>Heeft u last van uitslag of andere huidafwijkingen ter plaatse van de tekenbeet (zoals een EM: rode kring)?</p>
                          <input type="radio" name="kring" value="Ja" required>Ja<br>
                          <input type="radio" name="kring" value="Nee">Nee<br>
-                         <input type="radio" name="kring" value="Beetje">Misschien<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -109,10 +107,10 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Heeft u een vorm van Lyme?</p>
-                         <input type="radio" name="uLyme" value="Ja" required>Ja<br>
-                         <input type="radio" name="uLyme" value="Nee">Nee<br>
-                         <input type="radio" name="uLyme" value="Beetje">Misschien<br>
+                         <p>Heeft u pijnlijke gewrichten?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Een beetje">Een beetje<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
@@ -120,9 +118,210 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p>Hoe oud bent u?</p>
-                         <input type="number" name="age" value="" required>
-                         <br>
+                         <p>Heeft u onverklaarbare koorts, verhoging, zweten, koude rillingen, of warmte-aanvallen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="weinig">wel, maar weinig<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van onverklaarbare gewichtsverandering: zowel aankomen als afvallen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="aankomen">alleen aankomen<br>
+                         <input type="radio" name="kring" value="afvallen">alleen afvallen<br>
+                         <input type="radio" name="kring" value="onzeker">ik weet het niet zeker<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van onverklaarbaar haarverlies?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van een pijnlijke keel?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="weinig">wel, maar weinig<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van opgezette klieren bij de keel?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">Ik weet het niet zeker<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van pijn bij testikels of bekkenpijn?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Mogelijk">Mogelijk wel<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van geïrriteerde blaas of verstoorde blaasfunctie?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van maagpijnen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="meer">Meer dan gewoonlijk<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van verandering in darmfunctie (constipatie of diarree)?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">Ik weet het niet zeker<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van ademnood of hoesten?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van hartkloppingen, overslaan van hartslag?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">ik ben daar niet zeker over<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van gewrichtspijn en/of gewrichtszwelling ?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="meer">Meer dan gewoonlijk<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van stijfheid in rug en/of nek ?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van spierpijn en/of spierkrampen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">Ik weet het niet<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van bibberen van lichaamsdelen (bv. Handen)?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="meer">Meer dan gewoonlijk<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van mist in het hoofd; moeite met denken?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="Misschien">Misschien<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van moeilijkheden met concentreren en/of lezen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">Ik weet het niet<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van slaapproblemen; te veel, te weinig, te vroeg wakker?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="meer">Meer dan gewoonlijk<br>
+                         <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
+                       </div>
+                     </div>
+
+                     <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
+                       <div class="inMiddenVraag">
+                       <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
+                         <p>Heeft u last van  gevoelige rode ogen?</p>
+                         <input type="radio" name="kring" value="Ja" required>Ja<br>
+                         <input type="radio" name="kring" value="Nee">Nee<br>
+                         <input type="radio" name="kring" value="onzeker">Ik ben er niet zeker van<br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
                      </div>
