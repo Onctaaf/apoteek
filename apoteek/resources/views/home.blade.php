@@ -6,7 +6,8 @@
         <div class="col-md-8" id="colmd8">
 
                   <section class="scrollclass" id="scrollclass">
-                    <form id="formid" action="/action_page.php" method="get" onsubmit="return validateForm()" name="test">
+                    <form id="formid" action="/generatePdf" method="post" onsubmit="return validateForm()" name="test">
+                      {{ csrf_field() }}
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">

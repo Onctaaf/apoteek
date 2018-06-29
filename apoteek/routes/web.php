@@ -22,3 +22,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/Faq', 'faqController@index');
 Route::get('/contact', 'contactController@index');
 Route::get('/apoteek', 'apoteekController@index');
+Route::post('/generatePdf', 'apoteekController@maakPdf');
