@@ -9,6 +9,7 @@
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Er zit een <span class="highlightSpan">teek</span> op mijn lichaam. Wat nu?</p>
                       <p class="antwoordFaq">Zorg dat u de teek zo spoedig mogelijk wordt verwijderd en doe daarna de test op onze website. Als u niet weet hoe dit moet volg dan de <a href="https://www.youtube.com" target="_blank">video<a>.<p>
+                        <iframe style="margin: 0 auto; display: block; padding-bottom: 4%;" width="560" height="315" src="https://www.youtube.com/embed/fDf_nPTRY2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Ik heb een <span class="highlightSpan">teek</span> gevonden. Krijg <span class="highlightSpan">ik</span> nu <span class="highlightSpan">lyme </span>?</p>
