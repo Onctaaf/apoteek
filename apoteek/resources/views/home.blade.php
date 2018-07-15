@@ -11,8 +11,8 @@
                       <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                         <div class="inMiddenVraag">
                         <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                           <p><input type="text" name="fname" placeholder="voornaam"><br>
-                           <input type="text" name="lname" placeholder="achternaam"><br></p>
+                           <p><input type="text" class="textveld" name="fname" placeholder="voornaam"><br>
+                           <input type="text" class="textveld" name="lname" placeholder="achternaam"><br></p>
                            <!-- <p onclick="scrolldown()" class="arrowDown" style="cursor: pointer; ">></p> -->
                            <img onclick="scrolldown()" id="kaasbroodje" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                          </div>
@@ -340,8 +340,8 @@
                      <div class="fullSizeVraag test werk_container colorpad" data-section-name="werk_container">
                        <div class="inMiddenVraag">
                        <img onclick="scrollup()" src="{{ asset('images/pijl.svg')}}" class="pijlup">
-                         <p><input type="text" name="emailDoc" placeholder="E-mail huisarts" style="width: 40%;" required><br>
-                         <input type="text" name="emailJij" placeholder="eigen E-mail" style="width: 40%;" required><br></p>
+                         <p><input class="textveld" type="text" name="emailDoc" placeholder="E-mail huisarts" style="width: 40%;" required><br>
+                         <input class="textveld" type="text" name="emailJij" placeholder="eigen E-mail" style="width: 40%;" required><br></p>
                          <input type="submit" value="Submit" class="submitButton" style="width: 40%;"><br>
                          <img onclick="scrolldown()" src="{{ asset('images/pijl.svg')}}" class="pijldown">
                        </div>
