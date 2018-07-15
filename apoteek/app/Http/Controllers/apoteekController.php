@@ -44,7 +44,7 @@ class apoteekController extends Controller
     $pdf->Cell(5,10, $request->input('fname'));
     $pdf->Ln(10);
     $pdf->Cell($beschrijvingpadding,$hgtPadding,"Achternaam: ");
-    $pdf->Cell(40,10, $request->input('lname'));
+    $pdf->Cell(40,10, $request->input('lname'));//Bo
     $pdf->Ln(10);
     $pdf->Cell($beschrijvingpadding,$hgtPadding,"Leeftijd: ");
     $pdf->Cell(40,10, $request->input('age'));
