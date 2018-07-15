@@ -42,11 +42,6 @@
                     Home
                 </p>
               </a>
-              <a class = "Apoteek deLinks navbarLink" href="apoteek">
-                <p class="LinkBoven">
-                    Apoteek
-                </p>
-              </a>
               <a class = "Test deLinks navbarLink" href="home">
                 <p class="LinkBoven">
                     Test

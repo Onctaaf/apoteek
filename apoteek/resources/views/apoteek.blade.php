@@ -9,7 +9,7 @@
                     <div class="apoteekHome">
                       <p class="titelText" >Waarom de test doen?</p>
                       <p class="insideText">
-                        Denkt u dat u lijd aan de ziekte van Lyme? Dan kunt bij ons de test doen. Op deze manier kunt u een indicatie krijgen en daarnaast alvast een begin van een eventueel vervolgonderzoek bij de huisarts.
+                        Denkt u dat u lijdt aan de ziekte van Lyme? Dan kunt bij ons de test doen. Op deze manier kunt u een indicatie krijgen en daarnaast alvast een begin van een eventueel vervolgonderzoek bij de huisarts.
                       </p>
                     </div>
                     <div class="apoteekHome">
