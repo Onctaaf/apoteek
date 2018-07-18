@@ -137,11 +137,11 @@ function checkpage(){
 }
 
 function scrolldown(){
-  $.scrollify.next();
+  $.scrollify.next;
 }
 
 function scrollup(){
-  $.scrollify.previous();
+  $.scrollify.previous;
 }
 var scroll = parseInt(window.innerHeight);
 

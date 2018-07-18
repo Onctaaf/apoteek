@@ -34,11 +34,12 @@ Andere besmettingswegen die door sommigen worden vermoed, zijn borstvoeding, men
                     </div>
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Hoe wordt de ziekte van Lyme <span class="highlightSpan">behandeld</span>?</p>
-                      <p class="antwoordFaq">Maakt u zich geen zorgen. U kunt altijd bij ons terecht op de contact pagina als u meer informatie wilt. We proberen u zo snel mogelijk van een goed antwoord te voorzienen<p>
+                      <p class="antwoordFaq">De ziekte van Lyme wordt bestreden met antibiotica. Als u er op tijd bij bent is er een grote kans dat u hier niks aan over houdt. Echter is er een aanzienlijk percentage van patienten dat symptomen later terug ziet komen of chronische schade blijft hebben.<p>
                     </div>
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Kunnen <span class="highlightSpan">huisdieren</span> ook de ziekte van Lyme krijgen?</p>
-                      <p class="antwoordFaq">Maakt u zich geen zorgen. U kunt altijd bij ons terecht op de contact pagina als u meer informatie wilt. We proberen u zo snel mogelijk van een goed antwoord te voorzienen<p>
+                      <p class="antwoordFaq">Ja, ook huisdieren zoals honden en katten kunnen de ziekte van Lyme oplopen. Symptomen hierbij zijn bijvoorbeeld koorts, uitdroging, sloomheid en in zeldzame gevallen de dood.<br>
+                        Let op: Er is bij huisdieren geen rode kring zichtbaar rond de tekenbeet.<p>
                     </div>
                     <div class="apoteekFaq">
                       <p class="vraagFaq" >Mijn vraag is niet <span class="highlightSpan">beantwoord</span> wat nu ?</p>

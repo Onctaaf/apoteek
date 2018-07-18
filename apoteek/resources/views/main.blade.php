@@ -9,7 +9,7 @@
                     <div class="mainHome">
                       <p class="titelText" >De test</p>
                       <p class="insideText">
-                        Denkt U de ziekte van Lyme te hebben? <br><br>Doe hier de test en neem de resultaten mee naar de huisarts om zo snel mogelijk duidelijk te hebben over Uw probleem. Wij voorzien u van een pdf bestand dat u mee kunt nemen naar de huisarts of van tevoren kunt mailen om zo Uw tijd zo efficiënt mogelijk te kunnen benutten.
+                        Denkt u de ziekte van Lyme te hebben? <br><br>Doe hier de test en neem de resultaten mee naar de huisarts om zo snel mogelijk duidelijk te hebben over uw probleem. Wij voorzien u van een pdf bestand dat u mee kunt nemen naar de huisarts of van tevoren kunt mailen om zo uw tijd zo efficiënt mogelijk te kunnen benutten.
                       </p>
                       <input onclick="window.location.href = 'home'" class = "submitButton" type="submit" value="Doe de test nu!" style="width: 50%; margin-left: 25%; margin-bottom: 15px;  font-size: 1.5em;">
                     </div>
