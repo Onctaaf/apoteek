@@ -168,4 +168,5 @@ $(window).scroll(function (event) {
   }
 
   $('#inhoudLine').css("width", ""+parseIntergert+"%");
+  $('#inpercent').text(parseIntergert + "%");
   });

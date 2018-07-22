@@ -62,6 +62,11 @@
                     <img style="height: auto; width: 30px;" id="ThemeImg" src="{{ asset('images/zon.svg')}}">
                 </p>
               </a>
+              <div id="dePercent" class = "deLinks navbarLink" style="display: none">
+                <p id="inpercent" class="LinkBoven">
+                  0%
+                </p>
+              </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

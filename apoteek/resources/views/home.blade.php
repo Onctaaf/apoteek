@@ -472,6 +472,8 @@
   $( ".Faq" ).removeClass( "currentPage" );
   $( ".Contact" ).removeClass( "currentPage" );
 
+  $("#dePercent").css("display","inline");
+
   $(function () {
     $.scrollify({
         section: ".card",
