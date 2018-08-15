@@ -16,6 +16,10 @@ window.onload = function(){
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.transition = ".3 all ease";
     }
+    elements = document.getElementsByTagName('mainHome');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].style.transition = ".3 all ease";
+    }
     if(currentTheme == 1){
       toLight();
       currentTheme = 0;
@@ -34,6 +38,10 @@ window.onload = function(){
         document.getElementById("text").style.transition = "none";
       }
       elements = document.getElementsByTagName('apoteekHome');
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.transition = "none";
+      }
+      elements = document.getElementsByTagName('mainHome');
       for (var i = 0; i < elements.length; i++) {
         elements[i].style.transition = "none";
       }
@@ -91,6 +99,11 @@ function toDark(){
         for (var i = 0; i < elements.length; i++) {
           elements[i].style.backgroundColor = '#212121';
         }
+        elements = document.getElementsByClassName('mainHome');
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].style.backgroundColor = '#333333';
+              elements[i].style.opacity = '0.9';
+        }
   localStorage.setItem('theme', '1');
 }
 
@@ -125,6 +138,11 @@ function toLight(){
                 for (var i = 0; i < elements.length; i++) {
                     elements[i].style.backgroundColor = '#DDDDDD';
                 }
+                                elements = document.getElementsByClassName('mainHome');
+                                for (var i = 0; i < elements.length; i++) {
+                                    elements[i].style.backgroundColor = '#DDDDDD';
+                                        elements[i].style.opacity = '0.9';
+                                }
   localStorage.setItem('theme', '0');
 }
 
